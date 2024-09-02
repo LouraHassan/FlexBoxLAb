@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.nav-section{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.first-div{
+    width: 30%;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    
+}
+.second-div{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list{
+    list-style: none;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+.third-div{
+    height:10vh ;
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+.button-div{
+    background-color: white;
+    height: 8vh;
+    color: black;
+    width: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.banner-div{
+    color: white;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.banner-title{
+    font-size: 6em;
+    letter-spacing: 0.1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.banner-text{
+font-size: large;
+text-align: center;
+}
+.content-div{
+    display: flex;
+    height: 260vh;
+    justify-content: center;
+    align-items: center;
+}
+.grid-div{
+    display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+width: 90%;
+}
+.element-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 25vw;
+    height: 60vh;
+    color: white;
+}
+.grid-text{
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.grid-img{
+    width: 100%;
+}
+
+.bottom-div{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height:200vh;
+    align-items: center;
+    justify-content: space-between;
+}
+.bottom-div-section1{
+    height: 200vh;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img-div{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+align-items: center;
+}
+.bottom-img-1{
+    box-shadow: 2px 2px 20px rgb(227, 227, 227);
+height: 40vh;
+    width: 30vw;
+}
+.bottom-img-2{
+   align-self: flex-end;
+   justify-content: center;
+    width: 25vw;
+    height: 40vh;
+    box-shadow: 2px 2px 20px rgb(227, 227, 227);
+}
+.text-div{
+    width: 40vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.bottom-title{
+   font-weight: 600;
+    font-size: 2.5em;
+
+}
+.bottom-text{
+    font-size: larger;
+    color: rgb(87, 87, 87);
+    align-self: center;
+    
+}
+.button-div-2{
+    align-self: center;
+
+    font-size: large;
+    display: inline-flex;
+    background-color: black;
+    color: white;
+    height: 8vh;
+    width: 12vw;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 20px rgb(227, 227, 227);
+    cursor: pointer;
+}
+.bottom-div-section2{
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+
+}
+
+.bottom-img{
+    width: 10vw;
+}
+
+.bottom-div-section3{
+    height: 20vh;
+    font-size: larger;
+    display: flex;
+    align-items: center;
+}
